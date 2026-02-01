@@ -9,10 +9,12 @@ import UpdateArray from "./UpdateArray";
 import Todo from "./Todo";
 import Effect from "./Effect";
 import Resolution from "./Resolution";
+import Clock from "./Clock";
 
 function App() {
   return (
     <>
+      <Clock />
       <Resolution />
       <Effect/>
       <Todo />
