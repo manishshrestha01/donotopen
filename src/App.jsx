@@ -8,10 +8,12 @@ import Update from "./Update";
 import UpdateArray from "./UpdateArray";
 import Todo from "./Todo";
 import Effect from "./Effect";
+import Resolution from "./Resolution";
 
 function App() {
   return (
     <>
+      <Resolution />
       <Effect/>
       <Todo />
       <UpdateArray />

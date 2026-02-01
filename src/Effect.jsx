@@ -18,6 +18,7 @@ const Effect = () => {
 
   return (
     <div className='card card-h2'>
+      <h2>UseEffect</h2>
        <p style={{color:color}}>Count is {count}</p>
        <button className='btn' onClick={AddCount}>Add</button>
        <button className='btn' onClick={SubCount}>Sub</button><br />
